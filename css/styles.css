@@ -1,0 +1,86 @@
+body {
+	font-family: "Open Sans", sans-serif;
+}
+
+/* HEADER */
+
+.logo {
+	margin-top: 10px;
+}
+
+.identification {
+	background: -webkit-linear-gradient(left, white, #d6e1ea);
+	background: -o-linear-gradient(right, white, #d6e1ea);
+	background: -moz-linear-gradient(right, white, #d6e1ea);
+	background: linear-gradient(to right, white, #d6e1ea);
+}
+
+h1 {
+	margin-top: 35px;
+	margin-bottom: 20px;
+}
+
+hr {
+	border-width: 0;
+	background-color: #647764;
+	height: 4px;
+}
+
+/* MAIN IMAGE */
+
+.central-image {
+	padding: 0 10px;
+	margin: 0 auto;
+}
+
+/* PROJECTS */
+
+.portfolio-header {
+	margin-bottom: 0;
+}
+
+h2 {
+	margin-bottom: 10px;
+	padding: 2px 1px;
+	border-radius: 3px;
+	background-color: #d6e1ea;
+}
+
+.project-box {
+	margin-bottom: 10px;
+}
+
+.project-image {
+	margin: 0 auto;
+}
+
+/* PROJECT LINKS */
+
+a {
+	color: #647764;
+	padding: 1px 5px;
+	margin-bottom: 1px;
+	margin-left: 5px;
+	border-radius: 3px;
+	border: 2px solid black;
+	/* raise "button" to align better with h3 */
+	position: relative;
+	top: -4px;
+}
+
+a:hover {
+	text-decoration: none;
+	background-color: #5b5b92;
+	color: white;
+}
+
+/* MODALS */
+
+
+.modal-image {
+	margin-bottom: 20px;
+}
+
+h3 {
+	display: inline-block;
+}
